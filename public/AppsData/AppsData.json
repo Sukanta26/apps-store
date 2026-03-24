@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/200/300?random=1",
+    "title": "Chat Master",
+    "companyName": "TechNova",
+    "description": "AI-powered chatbot for instant conversations.",
+    "size": 25,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 50000
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/200/300?random=2",
+    "title": "Photo Snap",
+    "companyName": "PixelLabs",
+    "description": "Capture and edit stunning photos easily.",
+    "size": 35,
+    "reviews": 220,
+    "ratingAvg": 4.7,
+    "downloads": 75000
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/200/300?random=3",
+    "title": "FitLife",
+    "companyName": "HealthSync",
+    "description": "Track workouts and nutrition effectively.",
+    "size": 40,
+    "reviews": 180,
+    "ratingAvg": 4.4,
+    "downloads": 60000
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/200/300?random=4",
+    "title": "Travel Buddy",
+    "companyName": "GlobeTrek",
+    "description": "Plan trips and explore new destinations.",
+    "size": 50,
+    "reviews": 90,
+    "ratingAvg": 4.2,
+    "downloads": 30000
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/200/300?random=5",
+    "title": "MusicFlow",
+    "companyName": "SoundWave",
+    "description": "Stream your favorite music anywhere.",
+    "size": 28,
+    "reviews": 320,
+    "ratingAvg": 4.8,
+    "downloads": 100000
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/200/300?random=6",
+    "title": "Budget Buddy",
+    "companyName": "FinTech Solutions",
+    "description": "Manage expenses and track budgets easily.",
+    "size": 22,
+    "reviews": 150,
+    "ratingAvg": 4.6,
+    "downloads": 45000
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/200/300?random=7",
+    "title": "NewsNow",
+    "companyName": "InfoStream",
+    "description": "Latest news updates from around the world.",
+    "size": 30,
+    "reviews": 200,
+    "ratingAvg": 4.3,
+    "downloads": 80000
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/200/300?random=8",
+    "title": "Recipe Master",
+    "companyName": "CookBook Inc.",
+    "description": "Discover and share amazing recipes.",
+    "size": 45,
+    "reviews": 95,
+    "ratingAvg": 4.5,
+    "downloads": 35000
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/200/300?random=9",
+    "title": "Task Manager",
+    "companyName": "OrganizeIt",
+    "description": "Keep track of tasks and deadlines easily.",
+    "size": 18,
+    "reviews": 140,
+    "ratingAvg": 4.4,
+    "downloads": 40000
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/200/300?random=10",
+    "title": "LearnLang",
+    "companyName": "EduTech",
+    "description": "Learn new languages with fun lessons.",
+    "size": 55,
+    "reviews": 180,
+    "ratingAvg": 4.7,
+    "downloads": 90000
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/200/300?random=11",
+    "title": "Weather Pro",
+    "companyName": "SkyNet",
+    "description": "Real-time weather updates and forecasts.",
+    "size": 20,
+    "reviews": 210,
+    "ratingAvg": 4.6,
+    "downloads": 65000
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/200/300?random=12",
+    "title": "Mindful Meditate",
+    "companyName": "ZenLab",
+    "description": "Meditation and mindfulness exercises.",
+    "size": 35,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 50000
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/200/300?random=13",
+    "title": "Gaming Hub",
+    "companyName": "PlayZone",
+    "description": "Play and discover popular games.",
+    "size": 60,
+    "reviews": 400,
+    "ratingAvg": 4.9,
+    "downloads": 150000
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/200/300?random=14",
+    "title": "MovieTime",
+    "companyName": "CinemaX",
+    "description": "Discover and stream movies online.",
+    "size": 50,
+    "reviews": 250,
+    "ratingAvg": 4.8,
+    "downloads": 120000
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/200/300?random=15",
+    "title": "Health Tracker",
+    "companyName": "WellnessTech",
+    "description": "Monitor your health stats and activities.",
+    "size": 32,
+    "reviews": 160,
+    "ratingAvg": 4.6,
+    "downloads": 70000
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/200/300?random=16",
+    "title": "Daily Planner",
+    "companyName": "TimeWise",
+    "description": "Organize your daily schedule effectively.",
+    "size": 25,
+    "reviews": 110,
+    "ratingAvg": 4.3,
+    "downloads": 30000
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/200/300?random=17",
+    "title": "Smart Wallet",
+    "companyName": "FinSecure",
+    "description": "Manage your finances and payments safely.",
+    "size": 27,
+    "reviews": 130,
+    "ratingAvg": 4.5,
+    "downloads": 45000
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/200/300?random=18",
+    "title": "Study Buddy",
+    "companyName": "EduPal",
+    "description": "Improve your studies with interactive tools.",
+    "size": 40,
+    "reviews": 150,
+    "ratingAvg": 4.7,
+    "downloads": 60000
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/200/300?random=19",
+    "title": "Language Tutor",
+    "companyName": "LinguaPro",
+    "description": "Learn languages with AI-assisted lessons.",
+    "size": 38,
+    "reviews": 140,
+    "ratingAvg": 4.6,
+    "downloads": 55000
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/200/300?random=20",
+    "title": "Yoga Daily",
+    "companyName": "FlexFit",
+    "description": "Daily yoga routines for mind and body.",
+    "size": 30,
+    "reviews": 180,
+    "ratingAvg": 4.8,
+    "downloads": 70000
+  }
+]

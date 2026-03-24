@@ -6,11 +6,16 @@ import { Toaster } from "react-hot-toast";
 
 const Root = () => {
   return (
-    <div className="max-w-6xl mx-auto">
-      <Toaster></Toaster>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+    <div className="flex flex-col min-h-screen max-w-6xl mx-auto">
+      <Toaster />
+      <Navbar />
+
+      {/* Main content grows to fill space */}
+      <main className="flex-1">
+        <Outlet />
+      </main>
+
+      <Footer />
     </div>
   );
 };

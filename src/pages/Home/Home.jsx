@@ -1,11 +1,15 @@
 import React from "react";
-import Banner from "../../components/Banner";
+import Banner from "../../components/Banner/Banner";
+import StatsSection from "../../components/StatsSection/StatsSection";
+import TrendingApps from "../../components/TrendingApps/TrendingApps";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Banner></Banner>
-    </div>
+      <StatsSection></StatsSection>
+      <TrendingApps></TrendingApps>
+    </>
   );
 };
 
