@@ -1,25 +1,29 @@
 import React, { useEffect, useState } from "react";
+import AppCard from "../../components/AppCard/AppCard";
+import ErrorApps from "../ErrorApps/ErrorApps";
 
 const AppsPage = () => {
   const [apps, setApps] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredApps, setFilteredApps] = useState([]);
 
+  // Load data
   useEffect(() => {
     fetch("/public/AppsData/AppsData.json")
       .then((res) => res.json())
       .then((data) => {
         setApps(data);
-        setFilteredApps(data); // Initially show all apps
+        setFilteredApps(data); // initially সব দেখাবে
       })
-      .catch((err) => console.error("Failed to load appsData.json:", err));
+      .catch((err) => console.error("Error loading data:", err));
   }, []);
 
-  // Filter apps whenever searchTerm changes
+  // Search filter
   useEffect(() => {
     const term = searchTerm.toLowerCase().trim();
+
     if (term === "") {
-      setFilteredApps(apps); // show all if search is empty
+      setFilteredApps(apps);
     } else {
       const filtered = apps.filter(
         (app) =>
@@ -34,47 +38,32 @@ const AppsPage = () => {
     <div className="p-5">
       <h2 className="text-2xl font-bold mb-4">All Apps</h2>
 
-      {/* Search and Total */}
-      <div className="flex justify-between items-center mb-4">
+      {/* Search + Count */}
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
+        {/* Search (Left) */}
         <input
           type="text"
           placeholder="Search apps..."
-          className="border rounded px-3 py-2 w-1/2"
+          className="border rounded px-3 py-2 w-full md:w-1/2"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+
+        {/* Count (Right) */}
         <div className="text-gray-700 font-semibold">
           Total Apps: {filteredApps.length}
         </div>
       </div>
 
-      {/* Apps Grid or Not Found */}
+      {/* Apps or Error */}
       {filteredApps.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredApps.map((app) => (
-            <div
-              key={app.id}
-              className="border rounded p-3 shadow hover:shadow-lg"
-            >
-              <img
-                src={app.image}
-                alt={app.title}
-                className="w-full h-40 object-cover mb-2"
-              />
-              <h3 className="font-semibold">{app.title}</h3>
-              <p className="text-sm text-gray-600">{app.companyName}</p>
-              <p className="text-sm">{app.description}</p>
-              <p className="text-xs text-gray-500">
-                Size: {app.size}MB | Reviews: {app.reviews} | Rating:{" "}
-                {app.ratingAvg} | Downloads: {app.downloads}
-              </p>
-            </div>
+            <AppCard key={app.id} app={app} />
           ))}
         </div>
       ) : (
-        <div className="text-center text-red-600 mt-10 text-lg font-semibold">
-          Apps Not Found
-        </div>
+        <ErrorApps></ErrorApps>
       )}
     </div>
   );
