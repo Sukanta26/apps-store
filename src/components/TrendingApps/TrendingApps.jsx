@@ -15,8 +15,10 @@ const TrendingApps = () => {
   return (
     <div className="mt-12">
       <div className="text-center mb-10">
-        <h2 className="text-2xl font-bold mb-4 ">Trending Apps</h2>
-        <p>Explore All Trending Apps on the Market developed by us</p>
+        <h1 className="text-3xl font-bold mb-4 ">Trending Apps</h1>
+        <p className="text-center text-gray-500 mb-8">
+          Explore All Trending Apps on the Market developed by us
+        </p>
       </div>
 
       {/* Grid 4 per row */}
@@ -30,7 +32,7 @@ const TrendingApps = () => {
       <div className="flex justify-center mt-6">
         <button
           onClick={() => navigate("/apps")}
-          className="btn bg-blue-600 text-white hover:bg-blue-700"
+          className="btn text-white bg-gradient-to-br from-violet-700 to-violet-500 border-none flex items-center gap-2 hover:scale-105 hover:brightness-110 transition duration-300"
         >
           Show All
         </button>

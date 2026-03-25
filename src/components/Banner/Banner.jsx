@@ -3,7 +3,7 @@ import BannerImage from "../../assets/hero.png";
 
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-white pt-16 px-4">
+    <div className="bg-gradient-to-b from-violet-50 to-white pt-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
