@@ -7,7 +7,7 @@ const TrendingApps = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/public/AppsData/AppsData.json")
+    fetch("/appsData.json")
       .then((res) => res.json())
       .then((data) => setApps(data.slice(0, 8))); // 🔥 8 apps
   }, []);

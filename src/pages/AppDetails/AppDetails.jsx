@@ -22,7 +22,7 @@ const AppDetails = () => {
   const [installed, setInstalled] = useState(false); // ✅ Track install status
 
   useEffect(() => {
-    fetch("/AppsData/AppsData.json")
+    fetch("/appsData.json")
       .then((res) => res.json())
       .then((data) => {
         const singleApp = data.find((a) => a.id === parseInt(id));

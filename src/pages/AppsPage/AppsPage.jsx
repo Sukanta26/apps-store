@@ -10,7 +10,7 @@ const AppsPage = () => {
 
   // Load data
   useEffect(() => {
-    fetch("/public/AppsData/AppsData.json")
+    fetch("/appsData.json")
       .then((res) => res.json())
       .then((data) => {
         setApps(data);
