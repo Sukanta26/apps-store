@@ -19,6 +19,7 @@ const AppDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [app, setApp] = useState(null);
+  const [installed, setInstalled] = useState(false); // ✅ Track install status
 
   useEffect(() => {
     fetch("/AppsData/AppsData.json")
@@ -26,6 +27,11 @@ const AppDetails = () => {
       .then((data) => {
         const singleApp = data.find((a) => a.id === parseInt(id));
         setApp(singleApp);
+
+        // ✅ Check if already installed
+        const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
+        const exists = stored.find((item) => item.id === singleApp.id);
+        if (exists) setInstalled(true);
       })
       .catch(() => {
         toast.error("Failed to load app ❌");
@@ -39,12 +45,13 @@ const AppDetails = () => {
     const exists = stored.find((item) => item.id === app.id);
     if (exists) {
       toast.error("Already Installed ❌");
+      setInstalled(true);
       return;
     }
     const updated = [...stored, app];
     localStorage.setItem("installedApps", JSON.stringify(updated));
     toast.success("App Installed ✅");
-    navigate("/installation");
+    setInstalled(true); // ✅ Mark as installed
   };
 
   // Prepare chart data from ratingDetails
@@ -54,7 +61,7 @@ const AppDetails = () => {
   }));
 
   return (
-    <div className="p-6 space-y-6 bg-gray-100  mx-auto">
+    <div className="p-6 space-y-6 bg-gray-100 mx-auto">
       {/* Top Section */}
       <div className="flex flex-col md:flex-row gap-6 items-center pb-6 border-b border-gray-300">
         <img
@@ -96,11 +103,17 @@ const AppDetails = () => {
             </div>
           </div>
 
+          {/* Install Button */}
           <button
             onClick={handleInstall}
-            className="btn bg-green-500 text-white mt-4 px-4 py-2 rounded hover:bg-green-600 transition"
+            disabled={installed} // ✅ disable if installed
+            className={`mt-4 px-4 py-2 rounded transition ${
+              installed
+                ? "bg-gray-400 text-white cursor-not-allowed"
+                : "bg-green-500 text-white hover:bg-green-600"
+            }`}
           >
-            Install Now ({app.size} MB)
+            {installed ? "Installed" : `Install Now (${app.size} MB)`}
           </button>
         </div>
       </div>
