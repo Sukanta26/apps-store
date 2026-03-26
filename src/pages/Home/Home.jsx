@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Banner></Banner>
       <StatsSection></StatsSection>
-      <div className="bg-gradient-to-b from-violet-50 to-white p-10">
+      <div className="bg-gray-100 p-10">
         <TrendingApps></TrendingApps>
       </div>
     </>

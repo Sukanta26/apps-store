@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import downloadIcon from "../../assets/icon-downloads.png";
+import starIcon from "../../assets/icon-ratings.png";
 
 const Installation = () => {
   const [apps, setApps] = useState([]);
-  const [originalApps, setOriginalApps] = useState([]); // 🔥 for reset
+  const [originalApps, setOriginalApps] = useState([]); // for reset
   const [sortType, setSortType] = useState("");
 
   useEffect(() => {
@@ -11,7 +13,7 @@ const Installation = () => {
     setOriginalApps(stored); // save original
   }, []);
 
-  // 🔥 Uninstall
+  // Uninstall
   const handleUninstall = (id) => {
     const updated = apps.filter((app) => app.id !== id);
     setApps(updated);
@@ -19,12 +21,12 @@ const Installation = () => {
     localStorage.setItem("installedApps", JSON.stringify(updated));
   };
 
-  // 🔥 Sort
+  // Sort
   const handleSort = (type) => {
     setSortType(type);
 
     if (type === "") {
-      setApps(originalApps); // 🔥 reset
+      setApps(originalApps); // reset
       return;
     }
 
@@ -39,7 +41,7 @@ const Installation = () => {
     setApps(sorted);
   };
 
-  // 🔥 Total Storage
+  // Total Storage
   const totalSize = apps.reduce((sum, app) => sum + app.size, 0);
 
   return (
@@ -57,7 +59,9 @@ const Installation = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-4 gap-3">
           {/* Left */}
           <div>
-            <p className="font-semibold">{apps.length} Apps Found</p>
+            <p className="text-gray-700 font-bold text-xl">
+              ({apps.length}) Apps Found{" "}
+            </p>
             <p className="text-sm text-gray-500">
               Total Storage: {totalSize} MB
             </p>
@@ -88,16 +92,32 @@ const Installation = () => {
                   <img
                     src={app.image}
                     className="w-16 h-16 rounded object-cover"
+                    alt={app.title}
                   />
 
                   <div>
                     <h3 className="font-semibold">{app.title}</h3>
 
-                    <div className="flex gap-4 text-sm mt-1">
-                      <span className="text-green-600">⬇ {app.downloads}</span>
-                      <span className="text-orange-500">
-                        ⭐ {app.ratingAvg}
-                      </span>
+                    <div className="flex gap-4 text-sm mt-1 items-center">
+                      {/* Downloads */}
+                      <div className="flex items-center gap-1 text-green-600">
+                        <img
+                          src={downloadIcon}
+                          alt="downloads"
+                          className="w-4 h-4 opacity-80 font-bold"
+                        />
+                        <span className="font-bold text-green-600">
+                          {app.downloads}
+                        </span>
+                      </div>
+
+                      {/* Rating */}
+                      <div className="flex items-center gap-1 text-orange-500">
+                        <img src={starIcon} alt="rating" className="w-4 h-4" />
+                        <span>{app.ratingAvg}</span>
+                      </div>
+
+                      {/* Size */}
                       <span className="text-gray-500">{app.size} MB</span>
                     </div>
                   </div>

@@ -1,222 +1,280 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/200/300?random=1",
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
     "title": "Chat Master",
     "companyName": "TechNova",
     "description": "AI-powered chatbot for instant conversations.",
     "size": 25,
     "reviews": 120,
     "ratingAvg": 4.5,
-    "downloads": 50000
+    "downloads": "5M",
+    "ratingDetails": { "5": 80, "4": 60, "3": 30, "2": 20, "1": 10 },
+    "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/200/300?random=2",
+    "image": "https://cdn-icons-png.flaticon.com/512/1829/1829586.png",
     "title": "Photo Snap",
     "companyName": "PixelLabs",
     "description": "Capture and edit stunning photos easily.",
     "size": 35,
     "reviews": 220,
     "ratingAvg": 4.7,
-    "downloads": 75000
+    "downloads": "7.5M",
+    "ratingDetails": { "5": 90, "4": 70, "3": 40, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/200/300?random=3",
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965567.png",
     "title": "FitLife",
     "companyName": "HealthSync",
     "description": "Track workouts and nutrition effectively.",
     "size": 40,
     "reviews": 180,
     "ratingAvg": 4.4,
-    "downloads": 60000
+    "downloads": "6M",
+    "ratingDetails": { "5": 70, "4": 60, "3": 35, "2": 20, "1": 15 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 4,
-    "image": "https://picsum.photos/200/300?random=4",
+    "image": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
     "title": "Travel Buddy",
     "companyName": "GlobeTrek",
     "description": "Plan trips and explore new destinations.",
     "size": 50,
     "reviews": 90,
     "ratingAvg": 4.2,
-    "downloads": 30000
+    "downloads": "3M",
+    "ratingDetails": { "5": 60, "4": 50, "3": 30, "2": 25, "1": 15 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 5,
-    "image": "https://picsum.photos/200/300?random=5",
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
     "title": "MusicFlow",
     "companyName": "SoundWave",
     "description": "Stream your favorite music anywhere.",
     "size": 28,
     "reviews": 320,
     "ratingAvg": 4.8,
-    "downloads": 100000
+    "downloads": "10M",
+    "ratingDetails": { "5": 95, "4": 80, "3": 40, "2": 20, "1": 5 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 6,
-    "image": "https://picsum.photos/200/300?random=6",
+    "image": "https://cdn-icons-png.flaticon.com/512/2331/2331970.png",
     "title": "Budget Buddy",
     "companyName": "FinTech Solutions",
     "description": "Manage expenses and track budgets easily.",
     "size": 22,
     "reviews": 150,
     "ratingAvg": 4.6,
-    "downloads": 45000
+    "downloads": "4.5M",
+    "ratingDetails": { "5": 85, "4": 70, "3": 40, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 7,
-    "image": "https://picsum.photos/200/300?random=7",
+    "image": "https://cdn-icons-png.flaticon.com/512/21/21601.png",
     "title": "NewsNow",
     "companyName": "InfoStream",
     "description": "Latest news updates from around the world.",
     "size": 30,
     "reviews": 200,
     "ratingAvg": 4.3,
-    "downloads": 80000
+    "downloads": "80M",
+    "ratingDetails": { "5": 70, "4": 60, "3": 45, "2": 25, "1": 15 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 8,
-    "image": "https://picsum.photos/200/300?random=8",
+    "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
     "title": "Recipe Master",
     "companyName": "CookBook Inc.",
     "description": "Discover and share amazing recipes.",
     "size": 45,
     "reviews": 95,
     "ratingAvg": 4.5,
-    "downloads": 35000
+    "downloads": "3.5M",
+    "ratingDetails": { "5": 80, "4": 65, "3": 35, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 9,
-    "image": "https://picsum.photos/200/300?random=9",
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
     "title": "Task Manager",
     "companyName": "OrganizeIt",
     "description": "Keep track of tasks and deadlines easily.",
     "size": 18,
     "reviews": 140,
     "ratingAvg": 4.4,
-    "downloads": 40000
+    "downloads": "4M",
+    "ratingDetails": { "5": 75, "4": 60, "3": 30, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 10,
-    "image": "https://picsum.photos/200/300?random=10",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png",
     "title": "LearnLang",
     "companyName": "EduTech",
     "description": "Learn new languages with fun lessons.",
     "size": 55,
     "reviews": 180,
     "ratingAvg": 4.7,
-    "downloads": 90000
+    "downloads": "9M",
+    "ratingDetails": { "5": 90, "4": 75, "3": 40, "2": 20, "1": 5 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 11,
-    "image": "https://picsum.photos/200/300?random=11",
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
     "title": "Weather Pro",
     "companyName": "SkyNet",
     "description": "Real-time weather updates and forecasts.",
     "size": 20,
     "reviews": 210,
     "ratingAvg": 4.6,
-    "downloads": 65000
+    "downloads": "6.5M",
+    "ratingDetails": { "5": 85, "4": 70, "3": 35, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 12,
-    "image": "https://picsum.photos/200/300?random=12",
+    "image": "https://cdn-icons-png.flaticon.com/512/2913/2913465.png",
     "title": "Mindful Meditate",
     "companyName": "ZenLab",
     "description": "Meditation and mindfulness exercises.",
     "size": 35,
     "reviews": 120,
     "ratingAvg": 4.5,
-    "downloads": 50000
+    "downloads": "50M",
+    "ratingDetails": { "5": 80, "4": 65, "3": 30, "2": 15, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 13,
-    "image": "https://picsum.photos/200/300?random=13",
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
     "title": "Gaming Hub",
     "companyName": "PlayZone",
     "description": "Play and discover popular games.",
     "size": 60,
     "reviews": 400,
     "ratingAvg": 4.9,
-    "downloads": 150000
+    "downloads": "150M",
+    "ratingDetails": { "5": 98, "4": 85, "3": 50, "2": 20, "1": 5 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 14,
-    "image": "https://picsum.photos/200/300?random=14",
+    "image": "https://cdn-icons-png.flaticon.com/512/833/833472.png",
     "title": "MovieTime",
     "companyName": "CinemaX",
     "description": "Discover and stream movies online.",
     "size": 50,
     "reviews": 250,
     "ratingAvg": 4.8,
-    "downloads": 120000
+    "downloads": "120M",
+    "ratingDetails": { "5": 95, "4": 80, "3": 40, "2": 20, "1": 5 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 15,
-    "image": "https://picsum.photos/200/300?random=15",
+    "image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
     "title": "Health Tracker",
     "companyName": "WellnessTech",
     "description": "Monitor your health stats and activities.",
     "size": 32,
     "reviews": 160,
     "ratingAvg": 4.6,
-    "downloads": 70000
+    "downloads": "7M",
+    "ratingDetails": { "5": 85, "4": 70, "3": 35, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 16,
-    "image": "https://picsum.photos/200/300?random=16",
+    "image": "https://cdn-icons-png.flaticon.com/512/3063/3063821.png",
     "title": "Daily Planner",
     "companyName": "TimeWise",
     "description": "Organize your daily schedule effectively.",
     "size": 25,
     "reviews": 110,
     "ratingAvg": 4.3,
-    "downloads": 30000
+    "downloads": "30M",
+    "ratingDetails": { "5": 70, "4": 55, "3": 35, "2": 25, "1": 15 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 17,
-    "image": "https://picsum.photos/200/300?random=17",
+    "image": "https://cdn-icons-png.flaticon.com/512/2331/2331943.png",
     "title": "Smart Wallet",
     "companyName": "FinSecure",
-    "description": "Manage your finances and payments safely.",
+    "description": "Manage your finances securely.",
     "size": 27,
     "reviews": 130,
     "ratingAvg": 4.5,
-    "downloads": 45000
+    "downloads": "450M",
+    "ratingDetails": { "5": 80, "4": 65, "3": 35, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 18,
-    "image": "https://picsum.photos/200/300?random=18",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png",
     "title": "Study Buddy",
     "companyName": "EduPal",
-    "description": "Improve your studies with interactive tools.",
+    "description": "Improve your studies with smart tools.",
     "size": 40,
     "reviews": 150,
     "ratingAvg": 4.7,
-    "downloads": 60000
+    "downloads": "60M",
+    "ratingDetails": { "5": 90, "4": 70, "3": 40, "2": 20, "1": 10 },
+     "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 19,
-    "image": "https://picsum.photos/200/300?random=19",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135789.png",
     "title": "Language Tutor",
     "companyName": "LinguaPro",
-    "description": "Learn languages with AI-assisted lessons.",
+    "description": "AI-assisted language learning platform.",
     "size": 38,
     "reviews": 140,
     "ratingAvg": 4.6,
-    "downloads": 55000
+    "downloads": "55M",
+    "ratingDetails": { "5": 85, "4": 70, "3": 35, "2": 20, "1": 10 },
+    "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   },
   {
     "id": 20,
-    "image": "https://picsum.photos/200/300?random=20",
+    "image": "https://cdn-icons-png.flaticon.com/512/2647/2647625.png",
     "title": "Yoga Daily",
     "companyName": "FlexFit",
     "description": "Daily yoga routines for mind and body.",
     "size": 30,
     "reviews": 180,
     "ratingAvg": 4.8,
-    "downloads": 70000
+    "downloads": "7M",
+    "ratingDetails": { "5": 95, "4": 75, "3": 40, "2": 20, "1": 5 },
+    "descriptionFull": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine.By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+  
   }
 ]

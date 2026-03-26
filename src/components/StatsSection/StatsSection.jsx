@@ -13,20 +13,23 @@ const StatsSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           {/* Downloads */}
           <div>
+            <p className="mt-2 text-sm opacity-80">Total Downloads</p>
             <h1 className="text-4xl md:text-5xl font-bold">29.6M</h1>
-            <p className="mt-2 text-sm opacity-90">Total Downloads</p>
+            <p className="mt-2 text-sm opacity-80">21% more than last month</p>
           </div>
 
           {/* Reviews */}
           <div>
+            <p className="mt-2 text-sm opacity-80">User Reviews</p>
             <h1 className="text-4xl md:text-5xl font-bold">906K</h1>
-            <p className="mt-2 text-sm opacity-90">User Reviews</p>
+            <p className="mt-2 text-sm opacity-80">46% more than last month</p>
           </div>
 
           {/* Active Apps */}
           <div>
+            <p className="mt-2 text-sm opacity-80">Active Apps</p>
             <h1 className="text-4xl md:text-5xl font-bold">132+</h1>
-            <p className="mt-2 text-sm opacity-90">Active Apps</p>
+            <p className="mt-2 text-sm opacity-80">31 more will Launch</p>
           </div>
         </div>
       </div>

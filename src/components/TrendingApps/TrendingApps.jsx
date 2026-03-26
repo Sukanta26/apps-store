@@ -29,7 +29,7 @@ const TrendingApps = () => {
       </div>
 
       {/* Show All Button Center */}
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center my-8">
         <button
           onClick={() => navigate("/apps")}
           className="btn text-white bg-gradient-to-br from-violet-700 to-violet-500 border-none flex items-center gap-2 hover:scale-105 hover:brightness-110 transition duration-300"
