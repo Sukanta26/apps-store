@@ -19,3 +19,5 @@ Apps Store is a responsive web application that showcases trending apps with det
 - **JavaScript (ES6+)** – Logic and interactivity.
 - **HTML5 & CSS3** – Basic markup and styling.
 - **JSON** – Static data source for app details.
+
+# DEPLOYED_URL_HERE : https://flourishing-hotteok-edd79e.netlify.app/
